@@ -13,5 +13,40 @@
             <li><a href="presentation.html">Presentation</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            <fieldset>
+                <legend>Skriv dina kontaktuppgifter</legend>
+                <lable for="text">För- och efternamn</lable>
+                <br>
+                <input type="text" name="Meddelande" id="text" />
+                <br>
+                <lable for="email">E-post</lable>
+                <br>
+                <input type="email" name="email" id="email" />
+                <br>
+                <lable for="radio">Radio-buttons</lable>
+                <br>
+                <input type="radio" name="Radio" id="radio" />
+                <br>
+                <input type="radio" name="Radio2" id="radio" />
+                <br>
+                <lable for="Checkbox">En checkbox</lable>
+                <br>
+                <input type="checkbox" name="checkbox1" id="checkbox" />
+            </fieldset>
+            <fieldset>
+                <legend>Meddelande</legend>
+                <textarea rows="4" cols="30"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Dropdown-meny</legend>
+                <select name="dropdown">
+                    <option value="Kaffe" selected>Kaffe</option>
+                    <option value="Te">Te</option>
+                    <option value="Mjölk">Mjölk</option>
+                </select>
+            </fieldset>
+            <input type="submit" value="submit"/>
+        </form>
     </body>
 </html>
