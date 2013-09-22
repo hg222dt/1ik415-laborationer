@@ -1,0 +1,46 @@
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    
+}
+    #container div {
+        border: 1px Black solid;
+    }
+
+#header {
+    width: 100%;
+}
+
+#navigation {
+    position:relative;
+    float:left;
+    width:20%;
+    margin-top: 5px;
+}
+
+#content { 
+    position: relative;
+    float:right;
+    width: 79%;
+    margin-top: 5px;
+}
+
+    #content div { 
+        margin:10px;
+        border: 0;
+    }
+
+#footer {
+    position:relative;
+    float: left;
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+    #footer p {
+        position: relative;
+        float: right;
+        margin-right: 30px;
+    }

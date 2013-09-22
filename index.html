@@ -3,31 +3,47 @@
     <head>
         <meta charset="utf-8"/>
         <title>Henkes halabalo</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
-        <h1>Henkes halabalo - En man. Ett tangentbord.</h1>
-        <p>Välkommen hit!</p>
-        <ul>
-            <li><a href="index.html">Start</a></dd></li>
-            <li><a href="Pages/laborationer.html">Laborationer</a></li>
-            <li><a href="Pages/presentation.html">Presentation</a></li>
-            <li><a href="Pages/kontakt.html">Kontakt</a></li>
-        </ul>
-        <h3><strong>I denna blogg...</strong></h3>
-        <p>...kommer jag att skapa en sammanställning av mitt liv för att göra livet lättare för NSA.</p>
-        <p>Skrivet av Henrik, 2013-09-11</p>
-        
-        <h3 id="laboration1.6"><strong>Andra inlägget! (Laboration1.6)</strong></h3>
-        <p>Här kommer först min logotyp, och därunder ligger sedan min väldigt snygga svg-bild.</p>
-        <img src="pics/Logo.png">
-        <img src="pics/henketest.svg">
-        <p>Skrivet av Henrik, 2013-09-11</p>
-        
-        <h3 id="laboration1.7"><strong>Tredje inlägget! (Laboration1.7)</strong></h3>
-        <p>Här kommer min första video!</p>
-        <video width="480" height="320" controls preload>
-            <source src="videos/testVideo2.m4v" type="video/mp4" /> 
-        </video>
-        <p>Skrivet av Henrik, 2013-09-11</p>
+        <div id="container">
+            <div id="header">
+                <h1>Henkes halabalo - En man. Ett tangentbord.</h1>
+                <p>Välkommen hit!</p>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a href="index.html">Start</a></dd></li>
+                    <li><a href="Pages/laborationer.html">Laborationer</a></li>
+                    <li><a href="Pages/presentation.html">Presentation</a></li>
+                    <li><a href="Pages/kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <div id="blogpost3">
+                    <h3 id="laboration1.7"><strong>Tredje inlägget! (Laboration1.7)</strong></h3>
+                    <p>Här kommer min första video!</p>
+                    <video width="320" height="200" controls preload>
+                        <source src="videos/testVideo2.m4v" type="video/mp4" /> 
+                    </video>
+                    <p>Skrivet av Henrik, 2013-09-11</p>
+                </div>
+                <div id="blogpost2">
+                    <h3 id="laboration1.6"><strong>Andra inlägget! (Laboration1.6)</strong></h3>
+                    <p>Här kommer först min logotyp, och därunder ligger sedan min väldigt snygga svg-bild.</p>
+                    <img src="pics/Logo.png">
+                        <img src="pics/henketest.svg">
+                    <p>Skrivet av Henrik, 2013-09-11</p>
+                </div>
+                <div id="blogpost1">
+                    <h3><strong>I denna blogg...</strong></h3>
+                    <p>...kommer jag att skapa en sammanställning av mitt liv just nu.</p>
+                    <p>Skrivet av Henrik, 2013-09-11</p>
+                </div>
+            </div>
+            <div id="footer">
+                <p>Copyright Henrik Gudmundsson</p>
+            </div>
+        </div>
     </body>
 </html>
