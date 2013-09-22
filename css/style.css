@@ -1,34 +1,86 @@
+/*
+h1: #424242
+h2: #424242
+Text-color: #787878
+Background-aside: #E6CE6E
+Background-main: #968748
+skrivet av: #ADADAD
+*/
+
+p {
+    color: #787878;
+}
+
+h1, h3 {
+    color: #424242;
+}
+
+body {
+    background-color:#E6CE6E;
+}
+
 #container {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
-    
+    padding:20px;
+    background-color:white;
+    border-radius: 3px;
 }
-    #container div {
-        border: 1px Black solid;
-    }
 
 #header {
     width: 100%;
+    background-color: #D1D1D1;
+    border: 1px solid #BABABA;
+    margin-bottom: 10px;
+    display: inline-block;
+
 }
 
+    #header h1 {
+        margin-left: 40px;
+    }
+
 #navigation {
-    position:relative;
-    float:left;
+    position: relative;
+    float: left;
     width:20%;
-    margin-top: 5px;
+    background-color: #D1D1D1;
+    border: 1px solid #BABABA;
+    
 }
+
+    #navigation a:link {
+        color: #424242;
+        text-decoration: none;
+    }
+    
+    #navigation a:visited {
+        color: #424242;
+        text-decoration: none;
+    }
+    
+    .linkDiv {
+        background-color: white;
+        width: 100px;
+        border: 1px solid #BABABA;
+        margin: 1px;
+    }
 
 #content { 
     position: relative;
-    float:right;
     width: 79%;
-    margin-top: 5px;
+    display: inline-block;
 }
 
     #content div { 
-        margin:10px;
-        border: 0;
+        position: relative;
+        margin-bottom:10px;
+        background-color: #D1D1D1;
+        width: 716px;
+        border: 1px solid #BABABA;
+        margin-left: 10px;
+        padding:20px;
     }
 
 #footer {
@@ -36,11 +88,24 @@
     float: left;
     height: 50px;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 30px;
+    display: block;
+    background-color: black;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
 }
 
     #footer p {
         position: relative;
         float: right;
         margin-right: 30px;
+    }
+
+.skrivetav {
+    color: #ADADAD;
+}
+
+    #content img {
+        width: 200px;
+        margin-left: 30px;
     }
