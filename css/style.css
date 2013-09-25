@@ -52,7 +52,8 @@ body {
     float: left;
     width:20%;
     background-color: #D1D1D1;
-    border: 1px solid #BABABA;
+    border: 10px solid #BABABA;
+    border-bottom-left-radius: 40px;
 }
 
     #navigation ul{
@@ -98,7 +99,7 @@ body {
 
 #content { 
     position: relative;
-    width: 79%;
+    width: 77%;
     display: inline-block;
 }
 
