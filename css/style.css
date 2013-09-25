@@ -110,7 +110,10 @@ body {
         width: 716px;
         border: 1px solid #BABABA;
         margin-left: 10px;
-        padding:20px;
+        padding-left:40px;
+        padding-top: 10px;
+        
+        
     }
     
     #content h3 {
@@ -169,6 +172,8 @@ dl, ul, ol{
 
 .skrivetav {
     font-style: italic;
+    text-align: right;
+    padding-right: 40px;
 }
 
 video{
