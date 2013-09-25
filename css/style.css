@@ -22,7 +22,7 @@ body {
 }
 
 #header {
-    width: 100%;
+    width: 98.1%;
     background-color: #D1D1D1;
     border: 10px solid #BABABA;
     margin-bottom: 10px;
@@ -99,7 +99,7 @@ body {
 
 #content { 
     position: relative;
-    width: 77%;
+    width: 75%;
     display: inline-block;
 }
 
@@ -107,7 +107,7 @@ body {
         position: relative;
         margin-bottom:10px;
         background-color: #D1D1D1;
-        width: 716px;
+        width: 698px;
         border: 1px solid #BABABA;
         margin-left: 10px;
         padding-left:40px;
