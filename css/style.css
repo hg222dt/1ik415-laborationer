@@ -258,3 +258,16 @@ form {
     position:relative;
     float: right;
 }
+
+table {
+    border: Solid #BABABA 10px;
+    border-radius: 20px;
+}
+
+#table {
+    padding-bottom:20px;
+}
+
+    #table p {
+        Color:Black;
+    }
