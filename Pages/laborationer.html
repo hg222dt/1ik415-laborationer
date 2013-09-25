@@ -3,16 +3,40 @@
     <head>
         <meta charset="utf-8"/>
         <title>Henkes halabalo</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
     </head>
     <body>
+    <div id="container">
+    <div id="header">
         <h1>Min laborationsportal</h1>
         <p>Henkes halabalo - En man. Ett tangentbord.</p>
-        <ul>
-            <li><a href="../index.html">Start</a></dd></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+        </div>
+        <div id="navigation">
+                <ul>
+                    <li>
+                        <a href="../index.html">
+                            <div class="linkDiv">Start</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="laborationer.html" class="active">
+                            <div class="linkDiv">Laborationer</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="presentation.html">
+                            <div class="linkDiv">Presentation</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="kontakt.html">
+                            <div class="linkDiv">Kontakt</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        <div id="content">
+        <div>
         <h2>Webbteknisk introduktion</h2>
         <ul>
             <li><a href="#laboration1">Laboration 1</a></li>
@@ -22,6 +46,8 @@
             <li><a href="../pics/Logo.png">Här är en länk direkt till min logotyp.</a></li>
             <li><a href="../index.html#laboration1.7">Mitt tredje blogginlägg.</a></li>
         </ul>
+        </div>
+        <div id="table">
         <table border "1">
         <thead>
             <tr>
@@ -86,13 +112,16 @@
             </tr>
         </tbody>     
         </table>
-        
+        </div>
+        <div id="labb1">
         <h3 id="laboration1">Laboration 1</h3>
         <p>Uppgifter:</p>
         <ol>
             <li>www-katalog. Check</li>
             <li><a href="#">Ett första dokument</a></li>
         </ol>
+        </div>
+        <div id="labb2">
         <h3 id="laboration2">Laboration 2</h3>
         <p>Uppgifter:</p>
         <ol>
@@ -118,7 +147,10 @@
             </dl>
             <li>Länkar och listor</li>
             <li>Bilder</li>
-            <li>Viseo</li>
+            <li>Video</li>
         </ol>
+        </div>
+        </div>
+        </div>
     </body>
 </html>
