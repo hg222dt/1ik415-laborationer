@@ -7,150 +7,148 @@
     </head>
     <body>
     <div id="container">
-    <div id="header">
-        <h1>Min laborationsportal</h1>
-        <p>Henkes halabalo - En man. Ett tangentbord.</p>
+        <div id="header">
+            <h1>Min laborationsportal</h1>
+            <h2>Henkes halabalo - En man. Ett tangentbord.</h2>
         </div>
         <div id="navigation">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        <div class="linkDiv"><p>Start</p></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="laborationer.html" class="active">
+                        <div class="linkDiv"><p>Laborationer</p></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="presentation.html">
+                        <div class="linkDiv"><p>Presentation</p></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="kontakt.html">
+                        <div class="linkDiv"><p>Kontakt</p></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <div>
+                <h3>Webbteknisk introduktion</h3>
                 <ul>
-                    <li>
-                        <a href="../index.html">
-                            <div class="linkDiv">Start</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="laborationer.html" class="active">
-                            <div class="linkDiv">Laborationer</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="presentation.html">
-                            <div class="linkDiv">Presentation</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="kontakt.html">
-                            <div class="linkDiv">Kontakt</div>
-                        </a>
-                    </li>
+                    <li><a href="#laboration1">Laboration 1</a></li>
+                    <li><a href="../index.html#laboration1.6">Laboration 1.6</a></li>
+                    <li><a href="#laboration2">Laboration 2</a></li>
+                    <li><a href="presentation.html#bild">Länk till en bild på mig.</a></li>
+                    <li><a href="../pics/Logo.png">Här är en länk direkt till min logotyp.</a></li>
+                    <li><a href="../index.html#laboration1.7">Mitt tredje blogginlägg.</a></li>
                 </ul>
             </div>
-        <div id="content">
-        <div>
-        <h2>Webbteknisk introduktion</h2>
-        <ul>
-            <li><a href="#laboration1">Laboration 1</a></li>
-            <li><a href="../index.html#laboration1.6">Laboration 1.6</a></li>
-            <li><a href="#laboration2">Laboration 2</a></li>
-            <li><a href="presentation.html#bild">Länk till en bild på mig.</a></li>
-            <li><a href="../pics/Logo.png">Här är en länk direkt till min logotyp.</a></li>
-            <li><a href="../index.html#laboration1.7">Mitt tredje blogginlägg.</a></li>
-        </ul>
-        </div>
-        <div id="table">
-        <table border "1">
-        <thead>
-            <tr>
-                <th><p>Laboration</p></th>
-                <th><p>Uppgift</p></th>
-                <th><p>Status</p></th>
-                <th><p>Redovisad</p></th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <td colspan="4"><p>Laborationsresultat gällande Henrik Gudmundsson.</p></td>
-            </tr>
-        </tfoot>
-        <tbody>
-            <tr>
-                <td rowspan="3"><p>1</p></td>
-                <td><p>1</p></td>
-                <td><p>Godkänd</p></td>
-                <td><p>2011-09-10</p></td>
-            </tr>
-            <tr>
-                <td><p>2</p></td>
-                <td><p>Godkänd</p></td>
-                <td><p>2011-09-10</p></td>
-            </tr>
-            <tr>
-                <td><p>3</p></td>
-                <td><p>Godkänd</p></td>
-                <td><p>2011-09-10</p></td>
-            </tr>
-            <tr>
-                <td rowspan="6"><p>2</p></td>
-                <td><p>1</p></td>
-                <td><p>Färdig</p></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><p>2</p></td>
-                <td><p>Färdig</p></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><p>3</p></td>
-                <td><p>Färdig</p></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><p>4</p></td>
-                <td><p>Färdig</p></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><p>5</p></td>
-                <td><p>Arbetar</p></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><p>6</p></td>
-                <td><p>Ej påbörjad</p></td>
-                <td></td>
-            </tr>
-        </tbody>     
-        </table>
-        </div>
-        <div id="labb1">
-        <h3 id="laboration1">Laboration 1</h3>
-        <p>Uppgifter:</p>
-        <ol>
-            <li>www-katalog. Check</li>
-            <li><a href="#">Ett första dokument</a></li>
-        </ol>
-        </div>
-        <div id="labb2">
-        <h3 id="laboration2">Laboration 2</h3>
-        <p>Uppgifter:</p>
-        <ol>
-            <li>Absoluta och relativa sökvägar</li>
-            <dl>
-                <dt>Skriv den absoluta sökvägen till filen bottom.html</dt>
-                <dd>http://www.server.se/html/pages/bottom.html</dd>
-                
-                <dt>Skriv den relativa sökvägen till filen top.html</dt>
-                <dd>pages/top.html</dd>
-                
-                <dt>Skriv den relativa sökvägen till filen index.html</dt>
-                <dd>../../index.html</dd>
-                
-                <dt>Skriv den absoluta sökvägen till filen index.html</dt>
-                <dd>http://www.server.se/index.html</dd>
-                
-                <dt>Skriv den relativa sökvägen till filen bottom.html</dt>
-                <dd>bottom.html</dd>
-                
-                <dt>Skriv den relativa sökvägen till filen top.html</dt>
-                <dd>html/pages/top.html</dd>
-            </dl>
-            <li>Länkar och listor</li>
-            <li>Bilder</li>
-            <li>Video</li>
-        </ol>
-        </div>
-        </div>
+            <div id="table">
+                <table border "1">
+                    <thead>
+                        <tr>
+                            <th><p>Laboration</p></th>
+                            <th><p>Uppgift</p></th>
+                            <th><p>Status</p></th>
+                            <th><p>Redovisad</p></th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4"><p>Laborationsresultat gällande Henrik Gudmundsson.</p></td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3"><p>1</p></td>
+                            <td><p>1</p></td>
+                            <td><p>Godkänd</p></td>
+                            <td><p>2011-09-10</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>2</p></td>
+                            <td><p>Godkänd</p></td>
+                            <td><p>2011-09-10</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>3</p></td>
+                            <td><p>Godkänd</p></td>
+                            <td><p>2011-09-10</p></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="6"><p>2</p></td>
+                            <td><p>1</p></td>
+                            <td><p>Färdig</p></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><p>2</p></td>
+                            <td><p>Färdig</p></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><p>3</p></td>
+                            <td><p>Färdig</p></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><p>4</p></td>
+                            <td><p>Färdig</p></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><p>5</p></td>
+                            <td><p>Arbetar</p></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><p>6</p></td>
+                            <td><p>Ej påbörjad</p></td>
+                            <td></td>
+                        </tr>
+                    </tbody>     
+                </table>
+            </div>
+            <div id="labb1">
+                <h3 id="laboration1">Laboration 1</h3>
+                <p>Uppgifter:</p>
+                <ol>
+                    <li>www-katalog. Check</li>
+                    <li><a href="#">Ett första dokument</a></li>
+                </ol>
+            </div>
+            <div id="labb2">
+                <h3 id="laboration2">Laboration 2</h3>
+                    <p>Uppgifter:</p>
+                    <ol>
+                        <li>Absoluta och relativa sökvägar</li>
+                        <dl>
+                            <dt>Skriv den absoluta sökvägen till filen bottom.html</dt>
+                            <dd>http://www.server.se/html/pages/bottom.html</dd>
+                            <dt>Skriv den relativa sökvägen till filen top.html</dt>
+                            <dd>pages/top.html</dd>
+                            <dt>Skriv den relativa sökvägen till filen index.html</dt>
+                            <dd>../../index.html</dd>
+                            <dt>Skriv den absoluta sökvägen till filen index.html</dt>
+                            <dd>http://www.server.se/index.html</dd>
+                            <dt>Skriv den relativa sökvägen till filen bottom.html</dt>
+                            <dd>bottom.html</dd>
+                            <dt>Skriv den relativa sökvägen till filen top.html</dt>
+                            <dd>html/pages/top.html</dd>
+                        </dl>
+                        <li>Länkar och listor</li>
+                        <li>Bilder</li>
+                        <li>Video</li>
+                    </ol>
+                </div>
+            </div>
+            <div id="footer">
+                <p>Copyright Henrik Gudmundsson</p>
+            </div>
         </div>
     </body>
 </html>

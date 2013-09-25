@@ -7,13 +7,6 @@ Background-main: #968748
 skrivet av: #ADADAD
 */
 
-p {
-    color: #787878;
-}
-
-h1, h3 {
-    color: #424242;
-}
 
 body {
     background-color:#E6CE6E;
@@ -37,10 +30,21 @@ body {
 
 }
 
-    #header h1 {
+    #header h1, #header h2 {
         margin-left: 40px;
+        color: #424242;
+        
     }
-
+    
+    #header h1 {
+        font-size: 3em;
+        font-family: "Lucida Console", "Helvetica", "Arial";
+    }
+    #header h2 {
+        font-size: 1em;
+        font-family: "Lucida Console", "Helvetica", "Arial";
+    }
+    
 #navigation {
     position: relative;
     float: left;
@@ -53,12 +57,12 @@ body {
         list-style-type: none;
     }
 
-    #navigation a:link {
+    a:link {
         color: #424242;
         text-decoration: none;
     }
     
-    #navigation a:visited {
+    a:visited {
         color: #424242;
         text-decoration: none;
     }
@@ -71,11 +75,23 @@ body {
         background-color: #ADADAD;
     }
     
+    #navigation a {
+        font-size: 1em;
+        font-family: "Helvetica", "Arial";
+    }
+    
     .linkDiv {
         background-color: white;
-        width: 100px;
+        width: 140px;
+        height: 25px;
         border: 1px solid #BABABA;
-        margin: 1px;
+        margin-top: 2px;
+        margin-left: -15px;
+    }
+    
+    .linkDiv p {
+        margin-top: 5px;
+        margin-left: 10px;
     }
 
 #content { 
@@ -93,6 +109,29 @@ body {
         margin-left: 10px;
         padding:20px;
     }
+    
+    #content h3 {
+        font-size: 1.7em;
+        color: #424242;
+        font-family: "Helvetica", "Arial";
+    }
+
+    #content p, #content ul, #content ol, #content dl, #content a {
+        color: #787878;
+        font-family: "Minion pro", "sant-serif", "arial", sans-serif;
+        line-height: 25px;
+    }
+    
+    #content a{
+        color: Black;
+        text-decoration: underline;
+    }
+    
+    lable, legend{
+        color: #787878;
+        font-family: "Minion pro", "sant-serif", "arial", sans-serif;
+    }
+
 
 #footer {
     position:relative;
@@ -120,3 +159,22 @@ body {
         width: 200px;
         margin-left: 30px;
     }
+
+dl, ul, ol{
+    color: #787878;
+}
+
+.skrivetav {
+    font-style: italic;
+}
+
+video{
+    border: 1px solid #ADADAD;
+    border-radius: 10px;
+}
+
+#footer p {
+    color: white;
+}
+
+    
