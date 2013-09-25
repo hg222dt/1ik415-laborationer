@@ -167,6 +167,11 @@ bakgrunds-färg sätts*/
         color: Black;
         text-decoration: underline;
     }
+    
+/* paragrafer i content far marginal fran vanster. */
+    #content p {
+        margin-left: 20px;
+    }
 
 /* 'lable och legend' sätts till viss färg och font. */
 lable, legend{
@@ -239,4 +244,17 @@ fieldset {
 form {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+/* Placerar inlagd bild i blogginlägg till vänster. */
+.left {
+    poition: relative;
+    float: left;
+    padding-right: 30px;
+}
+
+/* Placerar inlagd bild i blogginlägg till höger. */
+.right {
+    position:relative;
+    float: right;
 }
