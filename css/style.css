@@ -1,17 +1,26 @@
 /*
-h1: #424242
-h2: #424242
-Text-color: #787878
-Background-aside: #E6CE6E
-Background-main: #968748
-skrivet av: #ADADAD
-*/
 
+Använda färger:
+h1, h2, h3: #424242 
+p #navigation : #424242
+Brödtext: #787878
+blogg-signatur-text: #ADADAD
+
+Background-main: #E6CE6E
+conatiner background color: white
+Navigationsfältet: #D1D1D1
+Header bakgrund: #D1D1D1
+Content bakgrund: #D1D1D1
+Footer bakgrund: #D1D1D1
+border-färg content, footer, navigation, header: #BABABA
+
+*/
 
 body {
     background-color:#E6CE6E;
 }
 
+/* 'container' ligger centrerad och ska innehålla alla element förutom body.*/
 #container {
     margin-left: auto;
     margin-right: auto;
@@ -21,6 +30,7 @@ body {
     border-radius: 3px;
 }
 
+/* Ligger längst upp på siten, och ska innehålla sitens titel, samt respsktive sidas titel. */
 #header {
     width: 98.1%;
     background-color: #D1D1D1;
@@ -29,7 +39,6 @@ body {
     display: inline-block;
     border-top-left-radius: 40px;
     border-top-right-radius: 120px;
-    
     background-image: url('pics/icon2.png');
     background-repeat: no-repeat; 
     background-position: 30px 30px;
@@ -37,21 +46,26 @@ body {
 
 }
 
+/* h1 och h2 i 'header' ges en vänster-marginal, samt ny färg. */
     #header h1, #header h2 {
         margin-left: 90px;
         color: #424242;
-        
     }
-    
+
+/* h1 i 'header' sätts till visst typsnitt och storlek.  */    
     #header h1 {
         font-size: 3em;
         font-family: "Lucida Console", "Helvetica", "Arial";
     }
+
+/* h2 i 'header' sätts till visst typsnitt och storlek.  */    
     #header h2 {
         font-size: 1em;
         font-family: "Lucida Console", "Helvetica", "Arial";
     }
-    
+
+/* Bakgrundsfärg, border och hörn-radie i 'Navigation'-fältet sätts. 
+Även bredd samt relativ position, med float satt till vänster.  */
 #navigation {
     position: relative;
     float: left;
@@ -61,33 +75,30 @@ body {
     border-bottom-left-radius: 40px;
 }
 
+/* Punkterna tas bort i listorna i 'Navigation'. */
     #navigation ul{
         list-style-type: none;
     }
 
-    a:link {
-        color: #424242;
-        text-decoration: none;
-    }
-    
-    a:visited {
-        color: #424242;
-        text-decoration: none;
-    }
-    
+/* Länkfälten i 'navigation' när användare hovrar över dessa sätts till viss färg.  */
     #navigation div:hover {
         background-color: #ADADAD;
     }
-    
+
+/* Länkfälten i 'navigation' när användare befinner sig på överensstämmande sida, sätts till viss färg.  */    
     #navigation .active div{
         background-color: #ADADAD;
     }
-    
+
+/* Texten i länkarna sätts till viss storlek, och font. */
     #navigation a {
         font-size: 1em;
         font-family: "Helvetica", "Arial";
     }
     
+/* Knapparna stätts till färger. 
+Marginal uppe och till vänster sätts. 
+Höjd och bredd sätts. */    
     .linkDiv {
         background-color: white;
         width: 140px;
@@ -96,18 +107,35 @@ body {
         margin-top: 2px;
         margin-left: -15px;
     }
-    
+
+/* Paragrafertext inom knapparna får marginaler upp och till vänster. */    
     .linkDiv p {
         margin-top: 5px;
         margin-left: 10px;
     }
+    
+    /* färg på läntexten sätts, samt understrykning tas bort */
+    a:link {
+        color: #424242;
+        text-decoration: none;
+    }
+    
+    /* En länk som är besökt sätts till viss färg, samt understrykning tas bort. */
+    a:visited {
+        color: #424242;
+        text-decoration: none;
+    }
 
+/* 'Content' sätts till en viss bredd.
+Dess position sätts till relativ.*/
 #content { 
     position: relative;
     width: 75%;
     display: inline-block;
 }
 
+/*Divisionerna i 'content' sätts till relativ position,
+bakgrunds-färg sätts*/
     #content div { 
         position: relative;
         margin-bottom:10px;
@@ -117,10 +145,9 @@ body {
         margin-left: 10px;
         padding-left:40px;
         padding-top: 10px;
-        
-        
     }
     
+/* h3 sätts i 'content' till storlek, färg, font och vänstermarginal */
     #content h3 {
         font-size: 1.7em;
         color: #424242;
@@ -128,22 +155,27 @@ body {
         margin-left: 20px;
     }
 
+/* Element i 'content' sätts till viss färg, font och radavstånd. */
     #content p, #content ul, #content ol, #content dl, #content a {
         color: #787878;
         font-family: "Minion pro", "sant-serif", "arial", sans-serif;
         line-height: 25px;
     }
     
+/* Länkar i 'content' sätts till viss färg och understrykning tas bort. */
     #content a{
         color: Black;
         text-decoration: underline;
     }
-    
-    lable, legend{
-        color: #787878;
-        font-family: "Minion pro", "sant-serif", "arial", sans-serif;
-    }
 
+/* 'lable och legend' sätts till viss färg och font. */
+lable, legend{
+    color: #787878;
+    font-family: "Minion pro", "sant-serif", "arial", sans-serif;
+}
+
+/* Elementet footer sätts till relativ position
+float, höjd, bredd, marginal uppåt, bakgrundsfärg, border, hörn radie på de övre hörnen. */
 #footer {
     position:relative;
     float: left;
@@ -157,6 +189,7 @@ body {
     border: 1px solid #BABABA;
 }
 
+/* Paragrafer i 'footer' sätts till viss färg, marginal float och position. */
     #footer p {
         position: relative;
         float: right;
@@ -164,32 +197,32 @@ body {
         color: Black;
     }
 
+/* Bloggpost-signatur sätts till viss färg, italic, text-justering. och padding */
 .skrivetav {
     color: #ADADAD;
-}
-
-    #content img {
-        width: 200px;
-        margin-left: 30px;
-    }
-
-dl, ul, ol{
-    color: #787878;
-}
-
-.skrivetav {
     font-style: italic;
     text-align: right;
     padding-right: 40px;
 }
 
+/* Egenskaper för bilder som ligger i 'content' sätts till bredd och vänster-marginal.*/
+    #content img {
+        width: 200px;
+        margin-left: 30px;
+    }
+
+/* listorna sätts till viss färg. */
+dl, ul, ol{
+    color: #787878;
+}
+
+/* Videor får border med rundade hörn */
 video{
     border: 1px solid #ADADAD;
     border-radius: 10px;
 }
 
-
-
+/* Alla bloggposter får en liten avatar */
 .blogpost {
     background-image: url('pics/icon1.png');
     background-repeat: no-repeat; 
@@ -197,13 +230,13 @@ video{
     background-size:40px 40px;
 }
 
+/* Fieldset i formuläret får en bestämd bredd. */
 fieldset {
     width:300px;
 }
 
+/* Formuläret får padding ovan och under.  */
 form {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-    
