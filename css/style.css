@@ -144,7 +144,6 @@ body {
         font-family: "Minion pro", "sant-serif", "arial", sans-serif;
     }
 
-
 #footer {
     position:relative;
     float: left;
@@ -152,7 +151,7 @@ body {
     width: 100%;
     margin-top: 30px;
     display: block;
-    background-color: black;
+    background-color: #D1D1D1;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
 }
@@ -161,6 +160,7 @@ body {
         position: relative;
         float: right;
         margin-right: 30px;
+        color: Black;
     }
 
 .skrivetav {
@@ -187,15 +187,22 @@ video{
     border-radius: 10px;
 }
 
-#footer p {
-    color: white;
-}
+
 
 .blogpost {
     background-image: url('pics/icon1.png');
     background-repeat: no-repeat; 
     background-position: 10px 32px;
     background-size:40px 40px;
+}
+
+fieldset {
+    width:300px;
+}
+
+form {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
     
