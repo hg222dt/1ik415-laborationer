@@ -271,3 +271,29 @@ table {
     #table p {
         Color:Black;
     }
+    
+input, textarea, select {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#skickaknapp {
+    margin-left: 135px;
+    margin-top: 15px;
+}
+
+form lable {
+    margin-left: 19px;
+}
+
+form legend {
+    padding-bottom:5px;
+}
+
+#meddelande {
+    margin-top:10px;
+}
+
+
+
+

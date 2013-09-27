@@ -39,7 +39,7 @@
                 <div id="form">
                     <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
                         <fieldset>
-                            <legend><strong>Skriv dina kontaktuppgifter</strong></legend>
+                            <legend><strong>Dina kontaktuppgifter</strong></legend>
                             <lable for="text">För- och efternamn</lable>
                             <br>
                             <input type="text" name="Meddelande" id="text" />
@@ -57,18 +57,17 @@
                             <lable for="Checkbox">En checkbox</lable>
                             <br>
                             <input type="checkbox" name="checkbox1" id="checkbox" />
-                        </fieldset>
-                        <fieldset>
-                            <legend><strong>Meddelande</strong></legend>
-                            <textarea rows="4" cols="30"></textarea>
-                        </fieldset>
-                        <fieldset>
-                            <legend><strong>Dropdown-meny</strong></legend>
+                            <br>
+                             <lable for="dropdown">Kön</lable>
+                            <br>
                             <select name="dropdown">
-                                <option value="Kaffe" selected>Kaffe</option>
-                                <option value="Te">Te</option>
-                                <option value="Mjölk">Mjölk</option>
+                                <option value="Man">Man</option>
+                                <option value="Kvinna">Kvinna</option>
                             </select>
+                        </fieldset>
+                        <fieldset id="meddelande">
+                            <legend><strong>Meddelande</strong></legend>
+                            <textarea rows="9" cols="34"></textarea>
                         </fieldset>
                         <input type="submit" value="Skicka" id="skickaknapp"/>
                     </form>
