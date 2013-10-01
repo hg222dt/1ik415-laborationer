@@ -75,13 +75,121 @@ body {
     border-bottom-left-radius: 40px;
 }
 
+    #spritesTest1 {
+        position: absolute;
+        display: block;
+        height: 24px;
+        width: 24px;
+        top: 17px;
+        left:25px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -48px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest1:hover {
+        position: absolute;
+        display: block;
+        height: 24px;
+        width: 24px;
+        top: 17px;
+        left:25px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px 0px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest2 {
+        position: absolute;
+        display: block;
+        height: 24px;
+        width: 24px;
+        top: 47px;
+        left:25px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -96px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest2:hover {
+        position: absolute;
+        display: block;
+        height: 24px;
+        width: 24px;
+        top: 47px;
+        left:25px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -144px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest3 {
+        position: absolute;
+        display: block;
+        height: 24px;
+        width: 24px;
+        top: 77px;
+        left:25px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -192px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest3:hover {
+        position: absolute;
+        display: block;
+        height: 24px;
+        width: 24px;
+        top: 77px;
+        left:25px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -240px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest4 {
+        position: absolute;
+        display: block;
+        height: 24px;
+        width: 24px;
+        top: 107px;
+        left:25px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -288px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest4:hover {
+        position: absolute;
+        display: block;
+        height: 24px;
+        width: 24px;
+        top: 107px;
+        left:25px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -336px;
+        background-size:24px 360px;
+    }
+    
+    
+
+
+
 /* Punkterna tas bort i listorna i 'Navigation'. */
     #navigation ul{
         list-style-type: none;
     }
 
 /* Länkfälten i 'navigation' när användare hovrar över dessa sätts till viss färg.  */
-    #navigation div:hover {
+    #navigation .linkDiv:hover {
         background-color: #ADADAD;
     }
 
@@ -101,17 +209,17 @@ Marginal uppe och till vänster sätts.
 Höjd och bredd sätts. */    
     .linkDiv {
         background-color: white;
-        width: 140px;
+        width: 110px;
         height: 25px;
         border: 1px solid #BABABA;
         margin-top: 2px;
-        margin-left: -15px;
+        margin-left: 20px;
     }
 
 /* Paragrafertext inom knapparna får marginaler upp och till vänster. */    
     .linkDiv p {
         margin-top: 5px;
-        margin-left: 10px;
+        margin-left: 8px;
     }
     
     /* färg på läntexten sätts, samt understrykning tas bort */
