@@ -145,6 +145,7 @@ bakgrunds-färg sätts*/
         margin-left: 10px;
         padding-left:40px;
         padding-top: 10px;
+        padding-bottom: 40px;
     }
     
 /* h3 sätts i 'content' till storlek, färg, font och vänstermarginal */
@@ -248,7 +249,7 @@ form {
 
 /* Placerar inlagd bild i blogginlägg till vänster. */
 .left {
-    poition: relative;
+    position: relative;
     float: left;
     padding-right: 30px;
 }
