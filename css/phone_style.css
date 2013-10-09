@@ -232,7 +232,7 @@ Höjd och bredd sätts. */
 Dess position sätts till relativ.*/
 #content { 
     position: relative;
-    width: 75%;
+    width: 90%;
     display: inline-block;
 }
 
@@ -242,7 +242,7 @@ bakgrunds-färg sätts*/
         position: relative;
         margin-bottom:10px;
         background-color: #D1D1D1;
-        width: 698px;
+        width: 90%;
         border: 1px solid #BABABA;
         margin-left: 10px;
         padding-left:40px;
@@ -256,6 +256,7 @@ bakgrunds-färg sätts*/
         color: #424242;
         font-family: "Helvetica", "Arial";
         margin-left: 20px;
+        margin-right: 30px;
     }
 
 /* Element i 'content' sätts till viss färg, font och radavstånd. */
@@ -274,6 +275,7 @@ bakgrunds-färg sätts*/
 /* paragrafer i content far marginal fran vanster. */
     #content p {
         margin-left: 20px;
+        margin-right: 30px;
     }
 
 /* 'lable och legend' sätts till viss färg och font. */
@@ -288,13 +290,17 @@ float, höjd, bredd, marginal uppåt, bakgrundsfärg, border, hörn radie på de
     position:relative;
     float: left;
     height: 50px;
-    width: 100%;
+    width: 90%;
     margin-top: 30px;
-    display: block;
+    display: inline-block;
     background-color: #D1D1D1;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     border: 1px solid #BABABA;
+    margin-left:3.5%;
+
+
+
 }
 
 /* Paragrafer i 'footer' sätts till viss färg, marginal float och position. */
@@ -310,13 +316,23 @@ float, höjd, bredd, marginal uppåt, bakgrundsfärg, border, hörn radie på de
     color: #ADADAD;
     font-style: italic;
     text-align: right;
-    padding-right: 40px;
+    font-size: 0.8em;
 }
 
 /* Egenskaper för bilder som ligger i 'content' sätts till bredd och vänster-marginal.*/
     #content img {
-        width: 200px;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
         margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom:20px;
+        
+        
+        
+        
     }
 
 /* listorna sätts till viss färg. */
@@ -327,7 +343,9 @@ dl, ul, ol{
 /* Videor får border med rundade hörn */
 video{
     border: 1px solid #ADADAD;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 85%;
+    height: 85%;
 }
 
 /* Alla bloggposter får en liten avatar */
@@ -340,7 +358,7 @@ video{
 
 /* Fieldset i formuläret får en bestämd bredd. */
 fieldset {
-    width:300px;
+    width:70%;
 }
 
 /* Formuläret får padding ovan och under.  */
@@ -365,10 +383,12 @@ form {
 table {
     border: Solid #BABABA 10px;
     border-radius: 20px;
+
 }
 
 #table {
     padding-bottom:20px;
+    
 }
 
     #table p {
@@ -378,10 +398,12 @@ table {
 input, textarea, select {
     margin-bottom: 10px;
     margin-left: 20px;
+    width:80%;
 }
 
 #skickaknapp {
-    margin-left: 135px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
 }
 
