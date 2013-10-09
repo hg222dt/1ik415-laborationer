@@ -1,0 +1,385 @@
+/*
+
+Använda färger:
+h1, h2, h3: #424242 
+p #navigation : #424242
+Brödtext: #787878
+blogg-signatur-text: #ADADAD
+
+Background-main: #E6CE6E
+conatiner background color: white
+Navigationsfältet: #D1D1D1
+Header bakgrund: #D1D1D1
+Content bakgrund: #D1D1D1
+Footer bakgrund: #D1D1D1
+border-färg content, footer, navigation, header: #BABABA
+
+*/
+
+body {
+    background-color:white;
+    width:97.5%;
+}
+
+/* 'container' ligger centrerad och ska innehålla alla element förutom body.*/
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    padding:20px;
+    background-color:white;
+    border-radius: 3px;
+}
+
+/* Ligger längst upp på siten, och ska innehålla sitens titel, samt respsktive sidas titel. */
+#header {
+    width: 98.1%;
+    background-color: #D1D1D1;
+    border: 10px solid #BABABA;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 120px;
+    background-image: url('pics/icon2.png');
+    background-repeat: no-repeat; 
+    background-position: 30px 30px;
+    background-size:50px 50px;
+
+}
+
+/* h1 och h2 i 'header' ges en vänster-marginal, samt ny färg. */
+    #header h1, #header h2 {
+        margin-left: 90px;
+        color: #424242;
+    }
+
+/* h1 i 'header' sätts till visst typsnitt och storlek.  */    
+    #header h1 {
+        font-size: 3em;
+        font-family: "Lucida Console", "Helvetica", "Arial";
+    }
+
+/* h2 i 'header' sätts till visst typsnitt och storlek.  */    
+    #header h2 {
+        font-size: 1em;
+        font-family: "Lucida Console", "Helvetica", "Arial";
+    }
+
+/* Bakgrundsfärg, border och hörn-radie i 'Navigation'-fältet sätts. 
+Även bredd samt relativ position, med float satt till vänster.  */
+#navigation {
+    position: relative;
+    float: left;
+    width:20%;
+    background-color: #D1D1D1;
+    border: 10px solid #BABABA;
+    border-bottom-left-radius: 40px;
+}
+
+    #spritesTest1 {
+        position: relative;
+        display: block;
+        width: 145px;
+        height: 25px;
+        left: -20px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px 0px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest2:hover {
+        position: relative;
+        display: block;
+        width: 145px;
+        height: 25px;
+        left: -20px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -96px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest2 {
+        position: relative;
+        display: block;
+        height: 25px;
+        width: 145px;
+        left: -20px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -144px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest3:hover {
+        position: relative;
+        display: block;
+        height: 24px;
+        width: 145px;
+        left: -20px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -192px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest3 {
+        position: relative;
+        display: block;
+        height: 24px;
+        width: 145px;
+        left: -20px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -240px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest4:hover {
+        position: relative;
+        display: block;
+        height: 24px;
+        width: 145px;
+        left: -20px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -288px;
+        background-size:24px 360px;
+    }
+    
+    #spritesTest4 {
+        position: relative;
+        display: block;
+        height: 24px;
+        width: 145px;
+        left: -20px;
+        background-image: url('pics/sprite.png');
+        background-repeat: no-repeat; 
+        background-position: 0px -336px;
+        background-size:24px 360px;
+    }
+    
+
+/* Punkterna tas bort i listorna i 'Navigation'. */
+    #navigation ul{
+        list-style-type: none;
+    }
+
+/* Länkfälten i 'navigation' när användare befinner sig på överensstämmande sida, sätts till viss färg.  */    
+    #navigation .active div{
+        background-color: #ADADAD;
+    }
+
+/* Texten i länkarna sätts till viss storlek, och font. */
+    #navigation a {
+        position: relative;
+        float:right;
+        font-size: 1em;
+        font-family: "Helvetica", "Arial";
+        top:0;
+        margin-left: 20px;
+    }
+    
+/* Knapparna stätts till färger. 
+Marginal uppe och till vänster sätts. 
+Höjd och bredd sätts. */    
+    .linkDiv {
+        background-color: white;
+        width: 110px;
+        height: 23px;
+        border: 1px solid #BABABA;
+        
+    }
+
+/* Länkfälten i 'navigation' när användare hovrar över dessa sätts till viss färg.  */
+    #navigation .linkDiv:hover {
+        background-color: #ADADAD;
+    }
+
+/* Paragrafertext inom knapparna får marginaler upp och till vänster. */    
+    .linkDiv p {
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+    
+    /* färg på läntexten sätts, samt understrykning tas bort */
+    a:link {
+        color: #424242;
+        text-decoration: none;
+    }
+    
+    /* En länk som är besökt sätts till viss färg, samt understrykning tas bort. */
+    a:visited {
+        color: #424242;
+        text-decoration: none;
+    }
+
+/* 'Content' sätts till en viss bredd.
+Dess position sätts till relativ.*/
+#content { 
+    position: relative;
+    width: 75%;
+    display: inline-block;
+}
+
+/*Divisionerna i 'content' sätts till relativ position,
+bakgrunds-färg sätts*/
+    #content div { 
+        position: relative;
+        margin-bottom:10px;
+        background-color: #D1D1D1;
+        width: 698px;
+        border: 1px solid #BABABA;
+        margin-left: 10px;
+        padding-left:40px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    
+/* h3 sätts i 'content' till storlek, färg, font och vänstermarginal */
+    #content h3 {
+        font-size: 1.7em;
+        color: #424242;
+        font-family: "Helvetica", "Arial";
+        margin-left: 20px;
+    }
+
+/* Element i 'content' sätts till viss färg, font och radavstånd. */
+    #content p, #content ul, #content ol, #content dl, #content a {
+        color: #787878;
+        font-family: "Minion pro", "sant-serif", "arial", sans-serif;
+        line-height: 25px;
+    }
+    
+/* Länkar i 'content' sätts till viss färg och understrykning tas bort. */
+    #content a{
+        color: Black;
+        text-decoration: underline;
+    }
+    
+/* paragrafer i content far marginal fran vanster. */
+    #content p {
+        margin-left: 20px;
+    }
+
+/* 'lable och legend' sätts till viss färg och font. */
+lable, legend{
+    color: #787878;
+    font-family: "Minion pro", "sant-serif", "arial", sans-serif;
+}
+
+/* Elementet footer sätts till relativ position
+float, höjd, bredd, marginal uppåt, bakgrundsfärg, border, hörn radie på de övre hörnen. */
+#footer {
+    position:relative;
+    float: left;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    display: block;
+    background-color: #D1D1D1;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border: 1px solid #BABABA;
+}
+
+/* Paragrafer i 'footer' sätts till viss färg, marginal float och position. */
+    #footer p {
+        position: relative;
+        float: right;
+        margin-right: 30px;
+        color: Black;
+    }
+
+/* Bloggpost-signatur sätts till viss färg, italic, text-justering. och padding */
+.skrivetav {
+    color: #ADADAD;
+    font-style: italic;
+    text-align: right;
+    padding-right: 40px;
+}
+
+/* Egenskaper för bilder som ligger i 'content' sätts till bredd och vänster-marginal.*/
+    #content img {
+        width: 200px;
+        margin-left: 30px;
+    }
+
+/* listorna sätts till viss färg. */
+dl, ul, ol{
+    color: #787878;
+}
+
+/* Videor får border med rundade hörn */
+video{
+    border: 1px solid #ADADAD;
+    border-radius: 10px;
+}
+
+/* Alla bloggposter får en liten avatar */
+.blogpost {
+    background-image: url('pics/icon1.png');
+    background-repeat: no-repeat; 
+    background-position: 10px 32px;
+    background-size:40px 40px;
+}
+
+/* Fieldset i formuläret får en bestämd bredd. */
+fieldset {
+    width:300px;
+}
+
+/* Formuläret får padding ovan och under.  */
+form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Placerar inlagd bild i blogginlägg till vänster. */
+.left {
+    position: relative;
+    float: left;
+    padding-right: 30px;
+}
+
+/* Placerar inlagd bild i blogginlägg till höger. */
+.right {
+    position:relative;
+    float: right;
+}
+
+table {
+    border: Solid #BABABA 10px;
+    border-radius: 20px;
+}
+
+#table {
+    padding-bottom:20px;
+}
+
+    #table p {
+        Color:Black;
+    }
+    
+input, textarea, select {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#skickaknapp {
+    margin-left: 135px;
+    margin-top: 15px;
+}
+
+form lable {
+    margin-left: 19px;
+}
+
+form legend {
+    padding-bottom:5px;
+}
+
+#meddelande {
+    margin-top:10px;
+}
