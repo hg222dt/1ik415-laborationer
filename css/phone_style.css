@@ -21,31 +21,25 @@ body {
     width:97.5%;
 }
 
-/* 'container' ligger centrerad och ska innehålla alla element förutom body.*/
-#container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
-    padding:20px;
-    background-color:white;
-    border-radius: 3px;
-}
-
 /* Ligger längst upp på siten, och ska innehålla sitens titel, samt respsktive sidas titel. */
 #header {
-    width: 98.1%;
+    width: 85%;
+    height:180px;
     background-color: #D1D1D1;
     border: 10px solid #BABABA;
-    margin-bottom: 10px;
     display: inline-block;
     border-top-left-radius: 40px;
     border-top-right-radius: 120px;
     background-image: url('pics/icon2.png');
     background-repeat: no-repeat; 
-    background-position: 30px 30px;
+    background-position: 10px 30px;
     background-size:50px 50px;
+    margin-left:3.5%;
+    margin-top:15px;
+    margin-bottom: 10px;
 
 }
+
 
 /* h1 och h2 i 'header' ges en vänster-marginal, samt ny färg. */
     #header h1, #header h2 {
