@@ -43,13 +43,13 @@ body {
 
 /* h1 och h2 i 'header' ges en vänster-marginal, samt ny färg. */
     #header h1, #header h2 {
-        margin-left: 90px;
+        margin-left: 70px;
         color: #424242;
     }
 
 /* h1 i 'header' sätts till visst typsnitt och storlek.  */    
     #header h1 {
-        font-size: 3em;
+        font-size: 2em;
         font-family: "Lucida Console", "Helvetica", "Arial";
     }
 
