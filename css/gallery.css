@@ -1,24 +1,155 @@
+h1{
+    position:relative;
+    display:block;
+    text-align:center
+}
+
 #container {
     background-color: grey;
+    height: 900px;
 }
 
-#images a {
-    position:relative;   
-    display: block;
-    width:200px;
-    background-color:white;
-    margin-bottom:20px;
-    margin-left:20px;
-    box-shadow: 10px 10px 15px black;
-}
-
-#images img {
-    position:relative;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-    padding-top:10px;
-    width: 180px;
-    padding-bottom:70px;
-}
+    #images a {
+        position:absolute;
+        display: block;
+        float:left;
+        width:200px;
+        background-color:white;
+        margin-bottom:20px;
+        box-shadow: 10px 10px 15px black;
+        text-decoration: none;
+        transform:rotate(5deg);
+        -ms-transform:rotate(5deg); /* IE 9 */
+        -webkit-transform:rotate(5deg); /* Safari and Chrome */
+        border: 1px solid #D9D8C1;
+        margin-left:100px;
+        margin-top:30px;
+        transition: all 1s;
+    }
     
+    
+    #images img {
+        position:relative;
+        display: inline-block;
+        padding-top:5%;
+        padding-left:5%;
+        width: 90%;
+        padding-bottom:30%;
+    }
+    
+    #images a[title]:after {
+        content: attr(title);
+        color: black;
+        position: relative;
+        left: 40%;
+        bottom: 40px;
+        border-radius: 0px;
+        font-family: 'The Girl Next Door', sans;
+    }
+    
+    #images a:nth-child(3n+3) {
+        transform:rotate(10deg);
+        -ms-transform:rotate(10deg); /* IE 9 */
+        -webkit-transform:rotate(10deg); /* Safari and Chrome */
+    }
+    
+    #images a:nth-child(5n+5) {
+        transform:rotate(-10deg);
+        -ms-transform:rotate(-10deg); /* IE 9 */
+        -webkit-transform:rotate(-10deg); /* Safari and Chrome */
+    }
+    
+    #images a:nth-child(6n+1) {
+        transform:rotate(-5deg);
+        -ms-transform:rotate(-5deg); /* IE 9 */
+        -webkit-transform:rotate(-5deg); /* Safari and Chrome */
+    }
+ 
+    #images a:hover{
+        position:relative;   
+        display: block;
+        width:400px;
+        background-color:white;
+        margin-bottom:20px;
+        margin-left:20px;
+        box-shadow: 40px 20px 50px black;
+        text-decoration: none;
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg); /* IE 9 */
+        -webkit-transform:rotate(0deg); /* Safari and Chrome */
+        border: 1px solid #D9D8C1;
+        z-index:1;
+    }
+    
+    #images a:nth-child(1) {
+        left:0;
+    }
+    
+    #images a:nth-child(2) {
+        left:200px;
+    }
+    
+    #images a:nth-child(3) {
+        left:400px;
+    }
+    
+    #images a:nth-child(4) {
+        left:600px;
+    }
+    
+    #images a:nth-child(5) {
+        left:800px;
+    }
+    
+    #images a:nth-child(6) {
+        left:1000px;
+    }
+    
+    #images a:nth-child(7) {
+        left:1200px;
+    }
+    
+    #images a:nth-child(8) {
+        left:140px;
+    }
+    
+    #images a:nth-child(9) {
+        left:600px;
+    }
+    
+    
+    
+/*
+a:hover {
+    width:100px;
+    height:100px;
+    position:relative;
+    animation-name:animation;
+    animation-duration:1s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+    /* Safari and Chrome: */
+    -webkit-animation-name:myfirst;
+    -webkit-animation-duration:5s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-play-state:running;
+}
+
+@keyframes animation
+    {
+    0%   {}
+    100% {}
+    }
+
+@-webkit-keyframes animation /* Safari and Chrome */
+    {
+    0%   {}
+    100% {}
+    }
+    
+    */
