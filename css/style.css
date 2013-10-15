@@ -382,3 +382,30 @@ form legend {
 #meddelande {
     margin-top:10px;
 }
+
+#content .comments {
+    position:relative;
+    display: block;
+}
+
+    #content .comments h3 {
+        font-size:1em;
+        margin-top: 30px;
+    }
+    
+    #content .comments ul {
+        margin-top: 30px;
+        
+    }
+    
+    #content .comments li {
+        list-style:none;
+        border: 1px solid black;
+        width: 200px;
+    }
+    
+    #content .comments fieldset {
+        border: 0;
+        padding: 0;
+    }
+
