@@ -402,6 +402,7 @@ form legend {
         list-style:none;
         border: 1px solid black;
         width: 200px;
+        margin-bottom: 10px;
     }
     
     #content .comments fieldset {
@@ -409,3 +410,14 @@ form legend {
         padding: 0;
     }
 
+#blogpost6 div {
+    width: 250px;
+}
+
+#blogpost6 .org {
+    width: 150px;
+}
+
+#blogpost6 .adr {
+    width: 150px;
+}
