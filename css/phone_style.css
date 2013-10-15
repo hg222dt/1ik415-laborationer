@@ -431,6 +431,18 @@ form legend {
         border: 0;
         padding: 0;
     }
+    
+    #blogpost6 div {
+    width: 200px;
+}
+
+#blogpost6 .org {
+    width: 120px;
+}
+
+#blogpost6 .adr {
+    width: 120px;
+}
 
 
 
