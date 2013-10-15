@@ -320,18 +320,16 @@ float, höjd, bredd, marginal uppåt, bakgrundsfärg, border, hörn radie på de
 }
 
 /* Egenskaper för bilder som ligger i 'content' sätts till bredd och vänster-marginal.*/
-    #content img {
+    .blogpost img {
         position: relative;
         display: block;
+        left:40px;
         margin-left: auto;
         margin-right: auto;
         width: 150px;
         margin-left: 30px;
         margin-right: 30px;
         margin-bottom:20px;
-        
-        
-        
         
     }
 
@@ -367,19 +365,6 @@ form {
     padding-bottom: 20px;
 }
 
-/* Placerar inlagd bild i blogginlägg till vänster. */
-.left {
-    position: relative;
-    float: left;
-    padding-right: 30px;
-}
-
-/* Placerar inlagd bild i blogginlägg till höger. */
-.right {
-    position:relative;
-    float: right;
-}
-
 table {
     border: Solid #BABABA 10px;
     border-radius: 20px;
@@ -388,7 +373,7 @@ table {
 
 #table {
     padding-bottom:20px;
-    
+    overflow: auto;
 }
 
     #table p {
