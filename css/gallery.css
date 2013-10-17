@@ -85,6 +85,23 @@ h1{
         font-size:19px;
     }
     
+    #images a:focus{
+        position:absolute;   
+        display: block;
+        width:250px;
+        background-color:white;
+        margin-bottom:20px;
+        margin-left:20px;
+        box-shadow: 40px 20px 40px #635F4F;
+        text-decoration: none;
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg); /* IE 9 */
+        -webkit-transform:rotate(0deg); /* Safari and Chrome */
+        border: 1px solid #D9D8C1;
+        z-index:1;
+        font-size:19px;
+    }
+    
     #images a:nth-child(1) {
         left:0;
     }
