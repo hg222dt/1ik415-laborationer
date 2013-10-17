@@ -1,11 +1,9 @@
-body {
-     background-color: grey;
-}
-
 h1{
     position:relative;
     display:block;
-    text-align:center
+    text-align:center;
+    font-family: 'The Girl Next Door', 'Verdana', sans-serif;
+    font-weight: 100;
 }
 
 #container {
@@ -23,7 +21,7 @@ h1{
         width:200px;
         background-color:white;
         margin-bottom:20px;
-        box-shadow: 10px 10px 15px black;
+        box-shadow: 10px 10px 15px #968A69;
         text-decoration: none;
         transform:rotate(5deg);
         -ms-transform:rotate(5deg); /* IE 9 */
@@ -32,7 +30,6 @@ h1{
         margin-left:100px;
         margin-top:30px;
         transition: all 1s;
-        
     }
     
     
@@ -51,7 +48,7 @@ h1{
         position: relative;
         left: 40%;
         bottom: 40px;
-        font-family: 'The Girl Next Door', arial;
+        font-family: 'The Girl Next Door', 'arial';
     }
     
     #images a:nth-child(3n+3) {
@@ -79,14 +76,14 @@ h1{
         background-color:white;
         margin-bottom:20px;
         margin-left:20px;
-        box-shadow: 40px 20px 50px black;
+        box-shadow: 40px 20px 40px #635F4F;
         text-decoration: none;
         transform:rotate(0deg);
         -ms-transform:rotate(0deg); /* IE 9 */
         -webkit-transform:rotate(0deg); /* Safari and Chrome */
         border: 1px solid #D9D8C1;
         z-index:1;
-        font-size:25px;
+        font-size:19px;
     }
     
     #images a:nth-child(1) {
